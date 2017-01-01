@@ -1,0 +1,17 @@
+.idea/
+/build
+/dist
+*.egg-info
+/src
+/smycli/*.log
+
+.vagrant
+*.pyc
+*.deb
+*.swp
+.cache/
+*.DS_Store
+*.pypirc
+*.zip
+*.tar.gz
+*.log
