@@ -8,7 +8,7 @@ description = 'Base on  the MYCLI CLI for MySQL Database,add additional secure m
 
 install_requirements = [
     'paramiko >= 1.7.7.1',
-    'configobj >= 1.8.1',
+    'mycli >= 1.8.1',
 ]
 version = __version__
 setup(
