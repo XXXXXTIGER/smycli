@@ -15,3 +15,7 @@
 *.zip
 *.tar.gz
 *.log
+._LICENSE.txt
+._MANIFEST.in
+._README.md
+._setup.py
