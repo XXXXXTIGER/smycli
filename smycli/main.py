@@ -158,11 +158,11 @@ def scli(ssh_host, ssh_port, ssh_username, ssh_pkey, ssh_password, database, use
     if prompt.find(r'\h') != -1:
         prompt = prompt.replace('\h', host)
     if ssh_host is not None and (ssh_password is None or not ssh_password.strip()):
-        ssh_username=ssh_username or 'None'
+        ssh_username=ssh_username or 'root'
         ssh_password = getpass('SSH PASSWORD(%s):' % ssh_username.encode('utf8'))
 
     if password is None or not password.strip():
-        user=user or 'None'
+        user=user or 'root'
         password = getpass('MYSQL PASSWORD(%s):' % user.encode('utf8'))
 
     try:
