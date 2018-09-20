@@ -81,7 +81,7 @@ Copyright:
 --------------
 All rights of `mycli` is reserved BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS,the license is [here](https://github.com/dbcli/mycli/blob/master/LICENSE.txt),and other rights is reserved by the BY THE COPYRIGHT HOLDERS .
 All rights of `smycli` is reserved .
-Email:xgtiger@163.com
+
 
 ## Detailed Install Instructions:
 you can install mycli as follows:
